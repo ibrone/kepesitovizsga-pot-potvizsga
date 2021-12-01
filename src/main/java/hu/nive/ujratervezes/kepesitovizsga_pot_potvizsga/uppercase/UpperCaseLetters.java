@@ -17,12 +17,19 @@ public class UpperCaseLetters {
 
             for (sor = raf.readLine(); sor != null; sor = raf.readLine()) {
                 
-                characters.toLowerCase();
+
             }
 
             raf.close();
         } catch (IOException e) {
             System.out.println("HIBA");
+        }
+    }
+
+    public void getNumberOfUppercase(){
+
+        for (int i = 0; i < sor.lenght(); i++){
+
         }
     }
 
